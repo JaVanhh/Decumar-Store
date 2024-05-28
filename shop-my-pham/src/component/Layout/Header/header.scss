@@ -1,0 +1,38 @@
+
+.header__main{       
+    .header__announcement{
+        background-color: #222;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: .875rem;
+        color: white;
+        text-align: center;
+        z-index: 999;
+    }
+    z-index: 999;        
+    background-color: white;
+    box-shadow: 0px 5px 2px -2px rgb(0 0 0 / 5%);
+    .header__menu{
+        .menu__content{
+            text-align: center;
+            padding-top: 5px;
+            span{
+                padding: 0px 17px;
+                margin-top: 27px;
+                color: black;
+                cursor: pointer;
+                font-weight: 500;
+            }  
+            :hover{
+                text-decoration: underline;
+            } 
+            .ant-drawer-header {
+                border-bottom: none !important;
+            }
+            
+        }
+        
+    }
+}
+
+

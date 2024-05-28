@@ -1,0 +1,92 @@
+.ProductDetail__content{
+    margin-top: 40px;
+    .product__form{
+        .product__title{
+            font-size: 25px;
+            color: #333;
+            font-weight: 400;
+        }
+        .product__price{
+            font-size: 20px;
+            font-weight: 600;
+            color: #1f1c28;
+            margin-top: 20px;
+        }
+        .product__description{
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+            font-weight: 500;
+        }
+        .options{
+            .product__quantity{
+                display: flex;
+                border: 2px solid rgb(219, 206, 206);
+                height: 48px;
+                width: 100%;
+                border-radius: 8px;
+                .button__minus{
+                    border: none;
+                    height: 48px;
+                }
+                .button__plus{
+                    border: none;
+                    height: 48px;
+                }
+                .form__control{
+                    border: none;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            .add__to__cart{
+                width: 100%;
+                .button__add__to__card{
+                    height: 52px;
+                    width: 100%;
+                    border: 2px solid #f68b1e;
+                    border-radius: 6px;
+                    background: #fff4e1;
+                    color: #f68b1e;
+                    font-size: 17px;
+                    font-weight: 600;                   
+                }
+                :hover{
+                    background: #f68b1e;
+                    color: #fff;
+                }
+            }
+            .buy__it__now{
+                width: 100%;
+                .button__buy__it__now{
+                    height: 52px;
+                    width: 100%;
+                    border: 2px solid #f68b1e;
+                    border-radius: 6px;
+                    background: #f68b1e;
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+                :hover{
+                    background: #fff4e1;
+                    color: #f68b1e;
+                }
+            }      
+        }
+        .introduce{
+            margin-top: 30px;
+        }
+        .recommended__products{
+            margin-top: 30px;
+            h4{
+                color: #f68b1e;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 27px;
+                border-top: 2px solid #eeece7;
+                padding-top: 27px;
+            }
+        }
+    }
+}

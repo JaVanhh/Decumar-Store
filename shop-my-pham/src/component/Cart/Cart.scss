@@ -1,0 +1,20 @@
+.cart__container{
+    display: block;
+    .quantity__in__cart{
+        border: 1px solid black;
+        border-radius: 6px;
+        width: 62%;
+
+        .button__minus{
+            border: none;
+        }
+        .form__control{
+            border: none;
+            text-align: center;
+            width: 36%;
+        }
+        .button__plus{
+            border: none;
+        }
+    }
+}

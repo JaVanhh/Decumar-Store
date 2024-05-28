@@ -1,0 +1,26 @@
+.sale__content{
+    .content__2{
+       margin-top: 40px;
+        .content__2__child{
+            display: flex;
+            padding: 0px 20px;
+            img{
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+    .content__3{
+       margin-top: 40px;
+        .content__3__child{
+            p{
+                font-size: 16px;
+                max-width: 200px;
+                font-weight: 500;
+                color: #000;
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

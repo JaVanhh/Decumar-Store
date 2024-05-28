@@ -1,0 +1,22 @@
+.login{
+    padding: 0px;
+    margin: 0px;
+    .header{
+        text-align: center;
+        text-transform: uppercase;
+        max-width: 100%;
+        height: 200px;
+        .title{
+            margin-top: 75px;
+        }
+    }
+    .body{
+        text-align: center;
+        max-width: 100%;
+        display: flex;
+        .form__login{
+            margin-top: 1px;
+            padding-right: 100px;
+        }
+    }
+}

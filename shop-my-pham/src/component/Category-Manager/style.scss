@@ -1,0 +1,26 @@
+.category__manager{
+    .header{
+        border-bottom: 1px solid rgb(221, 205, 205);
+    }
+    .body{
+        .menu{
+            border-right: 1px solid rgb(226, 215, 215);
+            padding-top: 20px;
+            height: 100%;
+        }
+        .content{
+            padding: 20px 0 0 20px;
+            background-color: rgb(236, 232, 232);
+            padding: 80px;
+            .child__content{
+                background-color: white;
+                padding: 40px;
+
+                .title{
+                    padding-top: 15px;
+                }
+            }
+        }
+    
+    }
+}
